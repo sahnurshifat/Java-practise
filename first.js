@@ -58,3 +58,17 @@ console.log(User);
 
 User["Age"] = User["Age"] + 1;
 console.log(User);
+
+/** we can change the key of the object */
+
+const product = {
+    Title : " A pen",
+    color : " Black",
+    isDeal : true,
+    price : 50,
+}
+
+console.log(product);   
+
+product["isDeal"] = product["isDeal = false"];
+console.log(product);
