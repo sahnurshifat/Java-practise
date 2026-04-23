@@ -11,5 +11,50 @@ console.log(Day);
     we will use let, const to declare the variable.
     var use korbo  na cz var diye variable redeclare 
     kora jay.
+    const diye constant variable declare hoy.
 
 **/
+let age = 23;
+const gender = "male";
+console.log(age);
+console.log(gender);
+
+let a;
+let b;
+a = 30;
+b = 20;
+console.log(a+b);
+
+
+/** variable blocks used for let and const .
+ * blocks are started with { }
+*/
+
+{
+    let a = 35;
+    console.log(a);
+}
+
+{
+    let a = 40;
+    console.log(a);
+
+}
+
+/** Data types- 
+ * primitive(number, string,) * non primitive(objects are np)
+ */
+
+/** OBJECTS */
+
+const User = {
+    Name : "Shanur Alam Shifat",
+    Age : 24,
+    Dept : "CSE",
+    Course : "Javascript",
+}
+
+console.log(User);
+
+User["Age"] = User["Age"] + 1;
+console.log(User);
